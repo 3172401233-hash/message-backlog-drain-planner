@@ -1,0 +1,17 @@
+{
+  "name": "message-backlog-drain-planner",
+  "version": "1.0.0",
+  "description": "Pure planning library that plans per-round consumer allocation for draining message queue backlogs while preserving per-key ordering, retry order and tenant quotas.",
+  "type": "module",
+  "engines": {
+    "node": ">=24.16.0"
+  },
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
